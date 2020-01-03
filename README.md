@@ -28,4 +28,8 @@ You can use Pycharm as an IDE but I pretty much exclusively use vim.
   
 - But that's not fun enough so I'm making my own mac changer.
 
--- In Progress --
+# Current way to run this program:
+- In terminal type:
+  - python my_mac_changer.py --interface <interface> --mac <desired mac address>
+  - you can search for <> arguments by running ifconfig in the command line
+  - The program runs ifconfig and compares the desired address to the final result and returns "Success!" or "Error!" accordingly
